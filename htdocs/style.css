@@ -1,0 +1,103 @@
+body{
+  font-family: cursive, sans-serif;
+}
+body #navbar{
+  margin-left:55vw;
+}
+#navbar{
+  position: fixed;
+  height: 50px;
+  width: 45vw;
+  background-color: ;
+  display: flex;
+  justify-content: space-around;
+}
+#navbar a{
+  background-color: ;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 1.3em;
+}
+.nav-link{
+  width: auto;
+  text-decoration:none;
+  color: black;
+}
+#welcome-section{
+  padding-top: 20vh;
+  min-height: 80vh;
+  background-color: cyan;
+  background-image: url("assets\images\profile-cover.jpg");
+  text-align: center;  
+}
+#projects{
+  margin-top: 10px;
+  height: 400px;
+  background-color: ;
+  padding: 25px;
+}
+.project-tile{
+  color: black;
+  text-decoration: none;
+  height: 240px;
+  width: 280px;
+  border: 2px solid cyan;
+  background-color:;
+}
+div h2{
+  text-align: center;
+  padding-bottom: 15px;
+}
+.projects-container{
+  display: flex;
+  justify-content: space-around;
+}
+.project-pic{
+  margin: 10px;
+  width: 260px;
+  height: 180px;
+}
+.project-title{
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: -5px;
+  border-top: 2px solid cyan;
+  background-color: white;
+}
+#contact-me{
+  margin-top: 10px;
+  height: 250px;
+  background-color: #7FFFD4;
+  padding: 25px 50px;
+}
+.social-container{
+  display: flex;
+  justify-content: space-around;
+}
+.social-tile{
+  height: 100px;
+  width: 100px;
+  background-color:  ;
+}
+.social-pic{
+  height: 100px;
+  width: 100px;
+}
+.social-title{
+  margin-top: 5px;
+  text-align: center;
+}
+#contact-me a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-family: arial, helvetika, sans-serif;
+}
+@media max-width:400px {
+  .social-container{
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-around;
+}
+  
+}
